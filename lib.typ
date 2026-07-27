@@ -27,7 +27,7 @@
   set par(leading: 1.25em, first-line-indent: (amount: 0.6em, all: true), justify: true)
   show heading.where(level: 1): set text(size: 20pt)
   show heading: it => [
-    #pagebreak()
+    #pagebreak(to: "odd")
     #v(1em, weak: false)
     #it
     #v(3em)
